@@ -1,0 +1,27 @@
+.about {
+  width: 80%;
+  max-width: 1024px;
+  margin: 64px auto;
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  .markdown, .img {
+    width: 50%;
+    flex: 1 1 0;
+  }
+}
+
+@media (max-width: 996px) {
+  .about {
+    flex-direction: column;
+    gap: 0;
+
+    .markdown, .img {
+      width: auto;
+    }
+  }
+}
