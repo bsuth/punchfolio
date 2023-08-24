@@ -1,8 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Raleway&display=swap');
 
 :root {
-  --ifm-heading-font-family: 'Libre Baskerville', serif;
+  --ifm-background-color: #f8f8f8;
+  --ifm-navbar-background-color: #f8f8f8;
+
+  --ifm-heading-font-family: 'Cormorant Garamond', serif;
+  --ifm-font-family-base: 'Raleway', sans-serif;
+
+  --ifm-navbar-padding-horizontal: 0;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-shadow: none;
 }
 
-[data-theme='dark'] {
+html {
+  padding: 32px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+@media (max-width: 996px) {
+  :root {
+    // Restore defaults
+    --ifm-navbar-padding-horizontal: var(--ifm-spacing-horizontal);
+    --ifm-navbar-padding-vertical: calc(0.5 * var(--ifm-spacing-vertical));
+  }
+
+  html {
+    padding: 0;
+  }
 }
