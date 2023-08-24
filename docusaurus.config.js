@@ -13,13 +13,16 @@ module.exports = {
       '@docusaurus/theme-classic',
       { customCss: require.resolve('./src/custom.scss') },
     ],
-    ['content-blog', { routeBasePath: '/' }],
     'content-pages',
     'docusaurus-plugin-sass',
     process.env.NODE_ENV === 'production' && '@docusaurus/plugin-sitemap',
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+    },
     navbar: {
       title: 'Punch',
       logo: {
@@ -27,18 +30,21 @@ module.exports = {
         src: 'logo-light.svg',
         srcDark: 'logo-dark.svg',
       },
-      items: [{ to: '/about', label: 'About', position: 'left' }],
-    },
-    footer: {
-      links: [
+      items: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
+          to: '/about',
+          label: 'About',
+          position: 'left',
+        },
+        {
+          to: '/contact',
+          label: 'Contact',
+          position: 'left',
+        },
+        {
+          href: 'https://www.linkedin.com/in/wipaweetant/',
+          label: 'LinkedIn',
+          position: 'right',
         },
       ],
     },
