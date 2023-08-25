@@ -13,6 +13,7 @@ export default props => {
       className={styles.imageGrid}
       children={imageReactNodes}
       style={{
+        gap: props.gap,
         gridTemplateRows: props.rows && `repeat(${props.rows}, 1fr)`,
         gridTemplateColumns: props.columns && `repeat(${props.columns}, 1fr)`,
       }}

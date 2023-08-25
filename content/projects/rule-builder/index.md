@@ -22,9 +22,9 @@ four-person plans leads to a loss of revenue in higher value plans.
 Marketing Tech team came up with a solution to have different discount applied
 to different plans, which would allow the company to generate more revenue for
 the user acquisition. However, the promotion software did not support
-customizing discount based on different plans. My contribution was to design a
+customizing discount based on different plans. My contribution was to **design a
 new interface that allows our marketing managers to customize vouchers for
-different plans.
+different plans**.
 
 ## Understanding use cases
 
@@ -55,13 +55,13 @@ plan (such as 2-6 meals per week).
 The feature should also allow them to have different type of discounts in one
 voucher and it must be easily to create and duplicate to one another.
 
-![user-flow](./user-flow.webp)
+![user-flow](user-flow.webp)
 
 ## Concept & Design
 
-I introduced a rule builder concept into the promotion software enabling users
-to define logics in voucher value for different plans. For example, when the
-voucher is used in two-person and three-meal plan, the discount will be 50
+I introduced a **rule builder concept** into the promotion software enabling
+users to define logics in voucher value for different plans. For example, when
+the voucher is used in two-person and three-meal plan, the discount will be 50
 percent off instead of 75 percent. Due to a rule builder being a new concept, I
 worked on the design and prototype at the same time in order to do rapid testing
 and get feedback fast and frequently from users.
@@ -87,7 +87,7 @@ an opportunity for us to develop a new function where users can build a campaign
 based on available rule templates, as rule will be a major part for future
 marketing campaigns.
 
-![navigation-patterns](./navigation-patterns.webp)
+![navigation-patterns](navigation-patterns.webp)
 
 ## Final prototype
 
