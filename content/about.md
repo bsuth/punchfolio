@@ -4,7 +4,7 @@
 #
 # As a sanity check, this folder should also contain files such as `favicon.svg`,
 # `logo-light.svg`, `logo-dark.svg` etc.
-image: punch-about.jpg
+image: about-punch.webp
 ---
 
 # I believe a great design solution always derives from a great understanding of user behavior.

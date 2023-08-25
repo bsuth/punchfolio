@@ -14,8 +14,17 @@ module.exports = {
       { customCss: require.resolve('./src/custom.scss') },
     ],
     'content-pages',
+    [
+      'content-docs',
+      {
+        path: 'content/projects',
+        routeBasePath: 'projects',
+        sidebarPath: false,
+      },
+    ],
     'docusaurus-plugin-sass',
     process.env.NODE_ENV === 'production' && '@docusaurus/plugin-sitemap',
+    'plugin-image-zoom',
   ],
 
   themeConfig: {
@@ -40,11 +49,6 @@ module.exports = {
           to: '/contact',
           label: 'Contact',
           position: 'left',
-        },
-        {
-          href: 'https://www.linkedin.com/in/wipaweetant/',
-          label: 'LinkedIn',
-          position: 'right',
         },
       ],
     },

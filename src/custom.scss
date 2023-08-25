@@ -32,3 +32,16 @@ body {
     padding: 0;
   }
 }
+
+// -----------------------------------------------------------------------------
+// flexanalytics/plugin-image-zoom
+// -----------------------------------------------------------------------------
+
+.medium-zoom-overlay {
+  background: var(--ifm-background-color) !important;
+  z-index: calc(var(--ifm-z-index-fixed) + 1);
+}
+
+.medium-zoom-image--opened {
+  z-index: calc(var(--ifm-z-index-fixed) + 2);
+}
