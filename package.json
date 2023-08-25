@@ -20,7 +20,6 @@
     "@docusaurus/theme-classic": "^2.4.1",
     "@mdx-js/react": "^1.6.22",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
-    "@vimeo/player": "^2.20.1",
     "clsx": "^1.2.1",
     "docusaurus-plugin-sass": "^0.2.5",
     "plugin-image-zoom": "github:flexanalytics/plugin-image-zoom",

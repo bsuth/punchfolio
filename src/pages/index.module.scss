@@ -2,22 +2,22 @@
   display: flex;
   gap: 16px;
 
-  img {
+  .thumbnail {
     width: 0;
     flex-grow: 1;
   }
 
-  .text {
+  .titles {
     width: 256px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
-    h2 {
+    .title {
       font-size: 32px;
     }
 
-    p {
+    .subtitle {
       margin-bottom: 0;
     }
   }
@@ -28,7 +28,7 @@
     width: 80%;
     margin: 128px 0;
 
-    h1 {
+    .title {
       margin: 0 0 64px;
       font-size: 48px;
     }

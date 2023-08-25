@@ -20,6 +20,7 @@ module.exports = {
         path: 'content/projects',
         routeBasePath: 'projects',
         sidebarPath: false,
+        breadcrumbs: false,
       },
     ],
     'docusaurus-plugin-sass',
@@ -28,10 +29,6 @@ module.exports = {
   ],
 
   themeConfig: {
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: true,
-    },
     navbar: {
       title: 'Punch',
       logo: {

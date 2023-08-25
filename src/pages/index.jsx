@@ -1,3 +1,4 @@
+import Link from '@docusaurus/Link';
 import { frontMatter } from '@site/content/index.md';
 import Layout from '@theme/Layout';
 import styles from './index.module.scss';
@@ -6,16 +7,24 @@ import styles from './index.module.scss';
 // ProjectPreview
 // -----------------------------------------------------------------------------
 
-const ProjectPreview = props => (
-  <div className={styles.projectPreview}>
-    <img src={`/${props.image}`} />
-    <div className={styles.text}>
-      <h2 children={props.title} />
-      <h3 children={props.subtitle} />
-      <p children={props.description} />
-    </div>
-  </div>
-);
+const ProjectPreview = props => {
+  const thumbnailSrc =
+    require(`@site/content/projects/${props.id}/thumbnail.webp`).default;
+
+  return (
+    <Link className={styles.projectPreview} to={`/projects/${props.id}`}>
+      <img
+        className={styles.thumbnail}
+        src={thumbnailSrc}
+        alt={`${props.id}-thumbnail`}
+      />
+      <div className={styles.titles}>
+        <h2 className={styles.title} children={props.title} />
+        <h3 className={styles.subtitle} children={props.subtitle} />
+      </div>
+    </Link>
+  );
+};
 
 // -----------------------------------------------------------------------------
 // Main
