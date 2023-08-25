@@ -31,11 +31,6 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Punch',
-      logo: {
-        alt: 'punchfolio logo',
-        src: 'logo-light.svg',
-        srcDark: 'logo-dark.svg',
-      },
       items: [
         {
           to: '/about',

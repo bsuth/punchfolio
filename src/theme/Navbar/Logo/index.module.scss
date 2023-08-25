@@ -1,0 +1,15 @@
+.navbarLogo {
+  &:hover .logoSvg {
+    stroke: var(--ifm-color-primary);
+  }
+
+  .logoSvg {
+    width: 2rem; // match `.navbar__logo` height;
+
+    stroke: var(--ifm-font-color-base);
+
+    // Match transition on navbar links
+    transition: stroke var(--ifm-transition-fast)
+      var(--ifm-transition-timing-default);
+  }
+}

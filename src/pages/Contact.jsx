@@ -1,8 +1,8 @@
-import ContactMarkdown, { frontMatter } from '@site/content/contact.md';
+import ContactMarkdown from '@site/content/contact.md';
 import Layout from '@theme/Layout';
 
 export default () => (
-  <Layout title="About">
+  <Layout title="Contact">
     <ContactMarkdown />
   </Layout>
 );

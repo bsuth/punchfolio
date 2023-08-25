@@ -1,4 +1,6 @@
-Email: [wipawee.tant@gmail.com](mailto:wipawee.tant@gmail.com)
+I dont know how this page should look help
 
-LinkedIn:
+Email [wipawee.tant@gmail.com](mailto:wipawee.tant@gmail.com)
+
+LinkedIn
 <a href="https://www.linkedin.com/in/wipaweetant/" target="_blank" children="wipaweetant" />

@@ -15,8 +15,6 @@
   --ifm-navbar-padding-horizontal: 0;
   --ifm-navbar-padding-vertical: 0;
   --ifm-navbar-shadow: none;
-
-  --ifm-link-color: var(--ifm-font-color-base);
 }
 
 [data-theme='light'] {
@@ -39,14 +37,29 @@ body {
 }
 
 @media (max-width: 996px) {
-  :root {
+  html {
+    padding: 0 var(--ifm-spacing-horizontal);
+  }
+
+  .navbar-sidebar {
     // Restore defaults
     --ifm-navbar-padding-horizontal: var(--ifm-spacing-horizontal);
     --ifm-navbar-padding-vertical: calc(0.5 * var(--ifm-spacing-vertical));
-  }
 
-  html {
-    padding: 0;
+    .menu {
+      padding: 0; // Remove sidebar padding (leave padding to .menu__link)
+    }
+
+    .menu__list,
+    .menu__list-item {
+      margin-top: 0; // Remove excessive sidebar item spacing
+    }
+
+    .menu__link {
+      padding: var(--ifm-navbar-padding-vertical)
+        var(--ifm-navbar-padding-horizontal);
+      border-radius: 0;
+    }
   }
 }
 

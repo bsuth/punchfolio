@@ -34,13 +34,11 @@ export default () => (
   <Layout wrapperClassName={styles.index}>
     <header className={styles.header}>
       <h1 className={styles.title} children={frontMatter.title} />
-      Scroll down to see my projects
+      {frontMatter.subtitle}
     </header>
     <ul className={styles.projects}>
       {frontMatter.projects.map(project => (
-        <li>
-          <ProjectPreview {...project} />
-        </li>
+        <li children={<ProjectPreview {...project} />} />
       ))}
     </ul>
   </Layout>

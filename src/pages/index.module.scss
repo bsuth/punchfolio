@@ -35,6 +35,9 @@
   }
 
   .projects {
+    --ifm-link-color: var(--ifm-font-color-base);
+
+    margin-bottom: 128px;
     padding: 0;
 
     display: flex;
