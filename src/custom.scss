@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Lato&display=swap');
 
 :root {
+  --document-padding-vertical: 32px;
+  --document-padding-horizontal: 32px;
+
   --ifm-color-primary: #8a8a8a;
 
-  --ifm-heading-font-family: 'Cormorant Garamond', serif;
-  --ifm-font-family-base: 'Raleway', sans-serif;
+  --ifm-heading-font-family: 'Baskervville', serif;
+  --ifm-heading-font-weight: 300;
+  --ifm-font-family-base: 'Lato', sans-serif;
 
   --ifm-navbar-padding-horizontal: 0;
   --ifm-navbar-padding-vertical: 0;
@@ -26,7 +30,7 @@
 }
 
 html {
-  padding: 32px;
+  padding: var(--document-padding-vertical) var(--document-padding-horizontal);
 }
 
 body {
@@ -34,9 +38,14 @@ body {
   max-width: 1024px;
 }
 
+.hash-link {
+  display: none;
+}
+
 @media (max-width: 996px) {
-  html {
-    padding: 0 var(--ifm-spacing-horizontal);
+  :root {
+    --document-padding-vertical: 0;
+    --document-padding-horizontal: var(--ifm-spacing-horizontal);
   }
 
   .navbar-sidebar {
