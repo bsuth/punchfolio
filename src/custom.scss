@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Raleway&display=swap');
 
 :root {
-  --ifm-color-primary: #da5555;
-  --ifm-color-primary-dark: #d53c3c;
-  --ifm-color-primary-darker: #d23030;
-  --ifm-color-primary-darkest: #ae2626;
-  --ifm-color-primary-light: #df6e6e;
-  --ifm-color-primary-lighter: #e27a7a;
-  --ifm-color-primary-lightest: #eaa0a0;
+  --ifm-color-primary: #8a8a8a;
 
   --ifm-heading-font-family: 'Cormorant Garamond', serif;
   --ifm-font-family-base: 'Raleway', sans-serif;
@@ -18,6 +12,7 @@
 
   --ifm-link-color: var(--ifm-font-color-base);
   --ifm-link-hover-color: var(--ifm-color-primary);
+  --ifm-link-hover-decoration: none;
 }
 
 [data-theme='light'] {

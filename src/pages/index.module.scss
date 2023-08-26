@@ -2,6 +2,10 @@
   display: flex;
   gap: 16px;
 
+  &:hover .thumbnail {
+    opacity: 0.8;
+  }
+
   &.top,
   &.bottom {
     flex-direction: column;
@@ -13,10 +17,6 @@
 
   &.left,
   &.right {
-    &.left {
-      text-align: right;
-    }
-
     &.right {
       flex-flow: row-reverse;
     }
@@ -43,6 +43,11 @@
     .subtitle {
       margin-bottom: 0;
     }
+  }
+
+  .thumbnail {
+    transition: opacity var(--ifm-transition-fast)
+      var(--ifm-transition-timing-default);
   }
 }
 

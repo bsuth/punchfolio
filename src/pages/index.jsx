@@ -19,7 +19,7 @@ const ProjectPreview = props => {
     >
       <div className={styles.titles}>
         <h2 className={styles.title} children={props.title} />
-        <h3 className={styles.subtitle} children={props.subtitle} />
+        <p className={styles.subtitle} children={props.subtitle} />
       </div>
       <img
         className={styles.thumbnail}
