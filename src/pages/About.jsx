@@ -8,7 +8,7 @@ export default () => (
       <div className={styles.markdown} children={<AboutMarkdown />} />
       <img
         className={styles.img}
-        src={`/${frontMatter.image}`}
+        src={require(`@site/static/${frontMatter.image}`).default}
         alt="picture of punch"
       />
     </section>
