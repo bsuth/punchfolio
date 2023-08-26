@@ -1,6 +1,7 @@
 import Link from '@docusaurus/Link';
 import { frontMatter } from '@site/content/index.md';
 import Layout from '@theme/Layout';
+import clsx from 'clsx';
 import styles from './index.module.scss';
 
 // -----------------------------------------------------------------------------
@@ -12,16 +13,19 @@ const ProjectPreview = props => {
     require(`@site/content/projects/${props.id}/thumbnail.webp`).default;
 
   return (
-    <Link className={styles.projectPreview} to={`/projects/${props.id}`}>
+    <Link
+      className={clsx(styles.projectPreview, styles[props.type])}
+      to={`/projects/${props.id}`}
+    >
+      <div className={styles.titles}>
+        <h2 className={styles.title} children={props.title} />
+        <h3 className={styles.subtitle} children={props.subtitle} />
+      </div>
       <img
         className={styles.thumbnail}
         src={thumbnailSrc}
         alt={`${props.id}-thumbnail`}
       />
-      <div className={styles.titles}>
-        <h2 className={styles.title} children={props.title} />
-        <h3 className={styles.subtitle} children={props.subtitle} />
-      </div>
     </Link>
   );
 };

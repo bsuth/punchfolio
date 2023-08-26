@@ -1,0 +1,14 @@
+.imageRow {
+  display: flex;
+  gap: 16px;
+
+  img {
+    width: 0;
+    flex-grow: 1;
+  }
+}
+
+.imageGrid {
+  display: grid;
+  gap: 16px;
+}

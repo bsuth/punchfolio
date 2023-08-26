@@ -2,16 +2,39 @@
   display: flex;
   gap: 16px;
 
-  .thumbnail {
-    width: 0;
-    flex-grow: 1;
+  &.top,
+  &.bottom {
+    flex-direction: column;
+
+    &.bottom {
+      flex-flow: column-reverse;
+    }
+  }
+
+  &.left,
+  &.right {
+    &.left {
+      text-align: right;
+    }
+
+    &.right {
+      flex-flow: row-reverse;
+    }
+
+    .titles {
+      width: 256px;
+      justify-content: flex-end;
+    }
+
+    .thumbnail {
+      width: 0;
+      flex-grow: 1;
+    }
   }
 
   .titles {
-    width: 256px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 
     .title {
       font-size: 32px;
@@ -35,8 +58,6 @@
   }
 
   .projects {
-    --ifm-link-color: var(--ifm-font-color-base);
-
     margin-bottom: 128px;
     padding: 0;
 

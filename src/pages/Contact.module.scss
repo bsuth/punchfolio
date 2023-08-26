@@ -1,0 +1,45 @@
+.contactSvg {
+  width: 64px;
+  height: 64px;
+}
+
+.contactLink {
+  width: 256px;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  border-radius: 8px;
+
+  // Match transition on navbar links
+  transition: background var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+
+  &:hover {
+    background: var(--ifm-menu-color-background-active);
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+}
+
+@media (max-width: 996px) {
+  .contact .links {
+    flex-direction: column;
+  }
+}

@@ -1,5 +1,5 @@
-import ImageGrid from '@site/src/components/ImageGrid';
-import Vimeo from '@site/src/components/Vimeo';
+import { ImageGrid } from '@site/src/components/ImageLayout'; import Vimeo from
+'@site/src/components/Vimeo';
 
 # Designing a Rule Builder on Promotion Software
 

@@ -1,4 +1,4 @@
-import ImageGrid from '@site/src/components/ImageGrid';
+import { ImageRow } from '@site/src/components/ImageLayout';
 
 # Rethinking the Referral Program
 
@@ -42,13 +42,13 @@ campaign showed that the pie performed 50% better on the conversion rate for the
 friend referral program than the monetary incentive**. The campaign revealed
 similar results across all markets using different items and monetary value.
 
-<ImageGrid columns="3" gap="16px">
+<ImageRow>
 
 ![referral-martha-stewart](referral-martha-stewart.webp)
 ![referral-marley-spoon](referral-marley-spoon.webp)
 ![referral-dinnerly](referral-dinnerly.webp)
 
-</ImageGrid>
+</ImageRow>
 
 ## Defining flow
 
@@ -62,11 +62,11 @@ problem/opportunity framework to crave out the basic fulfilments that we need to
 provide to users. Then I developed a user flow for the feature to understand
 where and how the feature will be organized with the current products.
 
-<ImageGrid columns="2" gap="16px">
+<ImageRow>
 
 ![user-story](user-story.webp) ![user-flow](user-flow.webp)
 
-</ImageGrid>
+</ImageRow>
 
 ## Design Exploration
 
@@ -75,12 +75,12 @@ on communication for the new referral program. I used the new content and
 explore different communication styles on the website in order to seamlessly
 educate them our new program as well as getting them excited about it.
 
-<ImageGrid columns="2" gap="16px">
+<ImageRow>
 
 ![design-exploration-1](design-exploration-1.webp)
 ![design-exploration-2](design-exploration-2.webp)
 
-</ImageGrid>
+</ImageRow>
 
 ## Final UI
 
@@ -89,12 +89,12 @@ worked on content design, I also include a product page of each of available
 rewards in the program showing the product description, instructions,
 ingredients, and allergen for customers.
 
-<ImageGrid columns="4" gap="16px">
+<ImageRow>
 
 ![final-ui-1](final-ui-1.webp) ![final-ui-2](final-ui-2.webp)
 ![final-ui-3](final-ui-3.webp) ![final-ui-4](final-ui-4.webp)
 
-</ImageGrid>
+</ImageRow>
 
 ## Impact & Performance
 
