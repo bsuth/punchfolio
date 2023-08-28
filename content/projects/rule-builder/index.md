@@ -3,13 +3,9 @@ import { ImageGrid } from '@site/src/components/ImageLayout'; import Vimeo from
 
 # Designing a Rule Builder on Promotion Software
 
-## Company & Product Background
+## Company & Product
 
-Marley Spoon is a meal kit subscription service that sends customers
-pre-portioned food ingredients and recipes to prepare home-cooked meals. Marley
-Spoon is available in a two-person or four-person plan that customers can select
-up to 6 meals for their weekly deliveries. Marley Spoon is currently operating
-in 7 countries with Australia and the USA being the largest markets.
+In the industry of meal kit subscriptions, Marley Spoon had already made its mark by delivering home-cooked experiences to customers across 7 countries with Australia and the USA as its biggest markets. With a focus on sending pre-portioned ingredients and recipes, Marley Spoon's offerings resonated particularly with those seeking convenience and delight. The plans, catering to both two-person and four-person households, offered a choice of up to 6 meals for weekly deliveries.
 
 ## Problem & Goal
 
