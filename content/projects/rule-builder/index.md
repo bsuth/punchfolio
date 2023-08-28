@@ -3,7 +3,7 @@ import { ImageGrid } from '@site/src/components/ImageLayout'; import Vimeo from
 
 # Designing a Rule Builder on Promotion Software
 
-## Company & Product
+## Company & Product Background
 
 In the industry of meal kit subscriptions, Marley Spoon had already made its mark by delivering home-cooked experiences to customers across 7 countries with Australia and the USA as its biggest markets. With a focus on sending pre-portioned ingredients and recipes, Marley Spoon's offerings resonated particularly with those seeking convenience and delight. The plans, catering to both two-person and four-person households, offered a choice of up to 6 meals for weekly deliveries.
 
