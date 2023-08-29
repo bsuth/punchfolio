@@ -3,64 +3,23 @@ import { ImageGrid } from '@site/src/components/ImageLayout'; import Vimeo from
 
 # Designing a Rule Builder on Promotion Software
 
-## Company & Product Background
+In the competitive landscape of meal kit subscriptions, Marley Spoon has made its mark by delivering convenient home-cooked experiences to customers in 7 countries, with Australia and the USA as the biggest markets. Their focus on pre-portioned ingredients and diverse recipes has resonated with those who seek ease without sacrificing flavor. With subscription plans designed for two-person and four-person households, subscribers can choose up to 6 meals per week, simplifying meal planning.
 
-In the industry of meal kit subscriptions, Marley Spoon had already made its mark by delivering home-cooked experiences to customers across 7 countries with Australia and the USA as its biggest markets. With a focus on sending pre-portioned ingredients and recipes, Marley Spoon's offerings resonated particularly with those seeking convenience and delight. The plans, catering to both two-person and four-person households, offered a choice of up to 6 meals for weekly deliveries.
+Vouchers have long been a staple in attracting new customers to the meal kit experience. However, the simplicity of offering flat percentage discounts has become a bit more complicated. **Offering the same discounts across all subscription plans started eating into profit margins, especially for higher-value plans.** Collaborating with product and marketing managers, we discovered a solution by introducing varying discounts linked to specific subscription plans. However, the existing promotion software caused a challenge, as it wasn't equipped for this level of customization.
 
-## Problem & Goal
+## The Strategy of Split Voucher
 
-Aggressively offering vouchers has been one of the key incentives for the
-first-time customers for the meal kit industry. The profit margin the company
-loses through discounting has been growing over time due to the competitiveness
-among brands. The current flat percent discount applied to both two-person and
-four-person plans leads to a loss of revenue in higher value plans.
+Split voucher is a common strategy among meal kit brands to maintain subscribers over multiple weeks. These vouchers consist of two main campaigns: the **"Acquisition Voucher,"** aimed at new customers and distributed through digital and affiliate marketing, and the **"Reactivation Voucher,"** tailored for unsubscribed customers via targeted email campaigns.
 
-Marketing Tech team came up with a solution to have different discount applied
-to different plans, which would allow the company to generate more revenue for
-the user acquisition. However, the promotion software did not support
-customizing discount based on different plans. My contribution was to **design a
-new interface that allows our marketing managers to customize vouchers for
-different plans**.
+## Simplifying the User Flow
 
-## Understanding use cases
-
-Generally, vouchers used in meal kit service often are split vouchers which is
-not a one-time voucher. The split vouchers allow users to continue getting a
-discount on the product for several weeks in order to increase long term value
-(LTV) for subscription products. For the plan-based voucher, there will be 2
-different users.
-
-The first use case is acquisition voucher for new customers who sign up for the
-first time with the brand. Usually users will get the voucher via marketing
-campaign and it will be applied automatically with a deeplink from the campaign
-in the signup process. The value of the discount will change regarding to a plan
-that users select.
-
-The second use case is reactivation voucher, which will be offering to users who
-have unsubscribed and would like to come back again. We target this group of
-users with reactivation campaign via email communication.
-
-## Requirements & user flow
-
-Discussing with Product Managers and Marketing Managers, I documented the
-requirements of the MVP for the feature. For them, the feature will allow them
-to set a distinct discount value based on different numbers of people on a plan
-(such as a couple plan, or a family plan) and different numbers of meal on a
-plan (such as 2-6 meals per week).
-
-The feature should also allow them to have different type of discounts in one
-voucher and it must be easily to create and duplicate to one another.
+During a discussion with both product and marketing teams, we outlined the essential features of the Minimum Viable Product (MVP). It became clear that the solution needed to be capable of adjusting discounts based on variables like the number of persons and the number of meals chosen on a plan.
 
 ![user-flow](user-flow.webp)
 
-## Concept & Design
+## Introducing the Rule Builder
 
-I introduced a **rule builder concept** into the promotion software enabling
-users to define logics in voucher value for different plans. For example, when
-the voucher is used in two-person and three-meal plan, the discount will be 50
-percent off instead of 75 percent. Due to a rule builder being a new concept, I
-worked on the design and prototype at the same time in order to do rapid testing
-and get feedback fast and frequently from users.
+I introduced a design solution that came in the shape of **the Rule Builder** – a dynamic interface empowering marketing managers to create tailored discount formulas for various subscription plan scenarios. For example, a "Two-Person, Three-Meal" plan might trigger a 50% discount instead of the standard 75%. This customization ensures discounts align with business goals and customer preferences.
 
 <ImageGrid columns="2">
 
@@ -71,22 +30,14 @@ and get feedback fast and frequently from users.
 
 </ImageGrid>
 
-## Navigation patterns
+## Refinement through Iteration
 
-I also optimized the navigation and introduced a new hierarchy of the components
-in the application so that users can understand better where to focus on the
-next step for each task when customizing vouchers.
-
-I added "Rules" as a part of navigation for users to get an overview of the rule
-templates that they have added into their system. This section will also provide
-an opportunity for us to develop a new function where users can build a campaign
-based on available rule templates, as rule will be a major part for future
-marketing campaigns.
+My design didn't end at the initial draft. Through design processes and rapid testing, I ensured that my solution improved to resonate better with users. I enhanced visual representations of complex rules and optimized a navigation structure transformed discount customization into an intuitive experience.
 
 ![navigation-patterns](navigation-patterns.webp)
 
-## Final prototype
+## Empowering Future Marketing Efforts
 
-Here a demo of the final design for rule building for voucher configuration.
+The Rule Builder's impact extended beyond immediate voucher customization. The "Rules" repository offered templates ready for future marketing campaigns. This streamlined voucher creation and set the stage for more targeted and effective marketing strategies.
 
 <Vimeo src="https://player.vimeo.com/video/854720575" />
