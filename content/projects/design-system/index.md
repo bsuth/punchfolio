@@ -1,145 +1,75 @@
 # Building the First Web Design System
 
-## Company & Product Background
+Marley Spoon, a meal kit subscription service that gained popularity during the pandemic, decided it was time for a fresh look. The brand revamped itself with branding—new typography, colors, the whole look and feel. However, the digital product of the company didn't get a chance to rebrand itself at the same time. As a product designer at Marley Spoon, I found myself in the middle of this problem, tasked with creating a design system that would bridge the gap between our spiffy new branding and our online presence.
 
-Marley Spoon is a meal kit service that enables customers to make meal at home
-by sending recipes and ingredients directly to the door. Apart from Marley Spoon
-brand, the company also owns another affordable meal kit brand called Dinnerly.
-As a part of our design process, we introduced a design system to establish a
-foundation to a style guide, a component library, and a design pattern of both
-brands.
+Marley Spoon isn't the only brand in this project. There's also Dinnerly, our sibling brand, dealing with similar design challenges. Both brands needed a way to make their digital spaces match their new looks.
 
-## Problem & Goal
+## Navigating the Challenge
 
-Recently both brands had been rebranded due to its populary during Covid-19.
-There were a major change on the look and feel of the brand including typography
-and color palette. However, those changes did not include the digital products.
-Therefore, we need a design system to collaborate better with in the team and
-keep consistency throughout all design with different product designers.
+It's not just about swapping logos and colors. Our web development was stuck in legacy mode, making it a real pain to update the user interface to match the new branding. **My primary goal was to establish a design system and component library for Marley Spoon's web application.** This framework aimed not only to synchronize old and new branding but also to facilitate collaboration, streamline communication, and provide a structured approach to design patterns.
 
-Another challenge that we faced was a technical issue that impacted on design
-changes. Design on web application was on the legacy development, where there is
-lack of resources and supports to update the UI changes to align with the
-rebranding. The goal of this project is to **develop a component library on the
-website containing both brandings (old and new) and to foster better
-communication and understanding of design patterns and how it should be used**.
+## The Essence of Design System
 
-## My role
-
-I am a product designer driving the design system and component library on web
-application.
-
-## Defining a design system
-
-Setting a focus and a goal for a design system is an important step. I believe
-that the first design system does not have to be an all-around project. It can
-start as a style guide or a component library that help the team communicates
-better.
-
-With the team, we decided that what we needed the most was a design system that
-is served as a **component library**. A component library would help us document
-the design and changes happening in a fast-pace environment dealing with many
-experiments and iterations.
+I decided to focus on **a component library** as the core of our design system. I understand that design system evolve with purpose, starting with a baby step of building a component library would **enable quick communication, foster adaptability in the face of rapid changes, and promote consistent design practices across the team.**
 
 ## Methodology
 
-I organized the design system using **Atomic Design Methodology** by Brad Frost,
-which is a popular method among many designers. I selected this method due to
-its hierarchical structure that fits our needs to build a component library.
-With the comprehensive system using Atoms, Molecules, Organisms, Templates, and
-Pages, we are able to document from the small unit of the component to a
-building block of small units. Here is an example of how I incorporated the
-method into the design system.
+When it came to structuring the design system, I took a methodology called **Atomic Design**, an approach pioneered by Brad Frost. This methodology provided a structured hierarchy ranging from fundamental "Atoms" to complete "Pages." This structure matched with my goal of creating a comprehensive component library that seamlessly integrated all design elements.
 
 ![atomic-design](atomic-design.webp)
 
-## Grid system
+## Grid System
 
-We used breakpoint and grid system from Google Material Design due to its
-convenience and popularity. With this solution, the team can align experiences
-on web and mobile application to be similar when users have to access the
-cross-device environment.
+I used Google Material Design's grid system to ensure that whether users are on a desktop or phone, the experience is consistent. No awkward shifts when they switch devices.
 
 ![grid-system](grid-system.webp)
 
 ## Typography
 
-On Marley Spoon website, we used Avenir Next font. This font was widely used for
-all pages that were built on legacy code. However, there were several pages that
-use the new font, Proxima Nova. Those pages usually are marketing communication
-and landing pages.
-
-Similar to Marley Spoon, Dinnerly had the same situation where the primary font
-on the website would be Galano Grostesque from the legacy code and Sofia Pro is
-the new font from the rebranding.
+The design system uses Avenir Next as the primary font, with Proxima Nova introduced for specific pages due to the rebranding. Dinnerly followed a similar path using Galano Grostesque as the primary font and Sofia Pro as another font for some pages.
 
 ![typography](typography.webp)
 
 ## Iconography
 
-In order to reduce complexity and effort for front-end development, we decided
-to use Material Design Icon library as the main library for both brands as it is
-informative and simple icon set. This icon set is shared for both web and mobile
-applications to keep a similar experience of communication.
+I opted for Material Design Icon library because it's simple and informative. This icon set became the universal language across platforms.
 
 ![icons](icons.webp)
 
-## Color palette
+## Color Palette
 
-Despite the rebranding, both brands' color palettes stay the same except the
-teal shades for Marley Spoon. However, there was a switch on the primary color.
-The mobile application now has yellow has a primary color but on the website,
-teal is the primary color. For the web design system, we agreed to keep teal as
-a primary color. Apart from the palette itself, I also included the color
-accessibility and contrast for digital use. Here is some examples for primary
-and secondary colors.
+By changing the primary color between web and mobile, I kept the essence of the look and feel and ensured the harmony betweek platforms.
 
 ![palette](palette.webp)
 
 ## Illustrations
 
-Besides the icons, the website UI used illustrations to communicate with users,
-specially during the brand discovery and consideration page. The illustration
-style is clean with less details.
+Pictures speak louder than words, especially during user discovery phase of the brands. The illustrations took on a clean and vibrant style, guiding users through our story.
 
 ![illustrations](illustrations.webp)
 
 ## Buttons
 
-One of the crucial step in design documentation is a small element like buttons
-that impact on the website's interaction design. I included Primary, Secondary,
-Tertiary, and Text buttons in to the design system. Because of the website
-interaction, it is important to organize the buttons to be in different states
-for the accessibility reason such as active, hover, focus, pressed, loading, and
-disabled.
+Buttons might seem basic, but they're big players in design patterns. I documented every button's look and behavior from active, hover, focus, pressed, loading, and disabled. All those little interactions surely make a difference.
 
 ![buttons](buttons.webp)
 
 ## Input fields
 
-Input fields are also one of the big categories in the component library.
-Similar to buttons, I included different styles of input fields according to
-each usage such as form fields, and dropdowns. For the accessibility, I included
-different states similar to buttons such as active, hover, focus, pressed,
-disabled, and error.
+I didn't just design how forms and fields look, but how they behave similar to button states, starting from active, hover, focus, to disabled. Accessibility is a key.
 
 ![input-fields](input-fields.webp)
 
 ## Recipe cards
 
-Another important component for a meal kit company is a recipe card, that is a
-card component containing a meal image, title, subtitle, tags, prices, states,
-and rating. I documented all recipe cards appearing on different pages and
-breakpoints on the website.
+After all, Marley Spoon and Dinnerly are a meal kit company. Recipe cards took spotlight. They included images, titles, tags, prices, ratings and more, adapting responsively across all screens.
 
 ![recipe-cards](recipe-cards.webp)
 
 ## Other components
 
-There are more components in the web design system apart from those that I
-mentioned. However, I wanted to demonstrate how my process came to be for the
-first web design system. Other components mostly are meal kit related such as
-weekly order status, weekly order summary, and etc. that I also applied a
-similar rule and logic into my design system setup.
+There are many more components. Weekly order statuses, summaries, and a bunch of meal-kit-related stuff. I made sure consistency remained the foundation in the design ecosystem, giving thoughtful ux patterns.
 
 ![other-components](other-components.webp)
+
+Here we are, Marley Spoon's debut web design system was born—a practical fusion of design elements and brand identity. Guided by Atomic Design, the component library became the go-to for consistency, teamwork, and understanding.

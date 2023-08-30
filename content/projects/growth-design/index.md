@@ -1,59 +1,39 @@
 # Growth Design with User Research
 
-## Company & Product Background
+In the competitive landscape of meal kit subscriptions, Marley Spoon has made its mark by delivering convenient home-cooked experiences to customers in 7 countries, with Australia and the USA as the biggest markets. Their focus on pre-portioned ingredients and diverse recipes has resonated with those who seek ease without sacrificing flavor. Since 2014, Marley Spoon has 500K active subscribers and over 1 million meals served, embodying convenience and culinary innovation.
 
-Marley Spoon is a meal kit service that enables customers to make meal at home by sending recipes and ingredients directly to the door. Marley Spoon is currently operating in 7 countries, where Australia and the USA are the main regions. Up until now there are about 500K active subscribers and more than 1 million meals have been served.
+The meal kit industry is bustling with promotions and vouchers to attract newcomers. Marley Spoon needed to stand out. Working UX researcher and product manager, we started a mission to improve Marley Spoon's growth strategy through design and research. This project, marked by collaboration and data-driven insights, aimed to enhance the user acquisition process, make the signup-to-first delivery experience smoother and more user-friendly.
 
-## Problem & Goal
+## Preparing for User Research
 
-Meal kit industry is a very competitive subscription industry that is driven with multiple types of vouchers to encourage the users to signup and continue purchasing with the brand. This opened up an opportunity to learn more about brand perception among the potential customers in order to optimize our conversions.
+Teaming up with a Senior UX Researcher, our goal was to conduct moderated interviews with users from key markets like the US, Australia, and Germany. We selected 30 participants in total who were familiar with meal kit services but new to Marley Spoon. Each interview, lasting about 45-50 minutes, dived into their initial impressions of Marley Spoon's website.
 
-Partnering up with a Product Manager and a UX Researcher, we worked on a study using moderated interview to develop a growth design strategy for user acquisition. With the research, we aimed to **gather potential customers' feedback, sentiments, and information needs across the early pages in a naturalistic journey way and to utilize the result to improve the signup-to-first delivery experience**.
+## A Testing Flow
 
-## My role
-
-I am a product designer that took a role on user research on the project. I worked with a UX Researcher to develop the research plan, and questions. I also moderated the interviews and analyzed the data. After the research, I worked with a Product Manager on planning a future experimentation strategy and design using the insights.
-
-## User research preparation
-
-I teamed up with a Senior UX Researcher on user interview. We aimed to conduct the interview with the major markets; the US, Australia, and Germany. We selected 30 participants who had no experience with Marley Spoon but have been subscribing to at least one meal kit service at that time. The interview was expected to last about 45-50 minutes. The testing was focusing on the experience and the first impressions of the initial touch points on the desktop website.
-
-## Testing flow
-
-In total, we tested 8 different pages that the users might go through during their signup journey with Marley Spoon. The lineup of the pages included (1) marketing landing page, (2) homepage, (3) how it works, (4) menu, and (5) signup pages.
+We put eight key pages, mirroring the typical user journey from landing on the marketing page to navigating the menu and signing up. This comprehensive approach aimed to capture authentic user sentiments and feedback.
 
 ![user-flow](user-flow.webp)
 
 ## Insights
 
-There are two main positive things that the users noticed from the journey. The first one is the signup discount. **93% of the users agreed that the brand offered the generous discount for them to try out the first box**. The second one is the images of the meals. **100% of the users complimented that the meals looked delicious and sparked their interests to learn more about each weekly menu**. 28% of the users explicitly mentioned that our brand offered more variety in the weekly menu than other meal kit services, which evoked positive emotions.
+The interviews revealed some interesting insights. The signup discount was a clear winner. It resonated with 93% of users. Delicious meal images earned univerally praise, sparking interest in exploring the brand further. 28% of participants appreciated the diverse weekly menu, connecting it to positive emotions.
 
-However, there were several negative sentiments. For example, **87% of the users expressed direct and explicit negative sentiments about choosing meals being the last step after payment in the signup process. 37% of the users mentioned that the selecting delivery process was redundant** but anyway it is straightforward and easy to understand. 20% of the users questioned about the unclarity of the discount display during the signup process.
+However, we also encountered pain points. Users expressed displeasure with choosing meals after making payments (87%). Some participants (37%) found the delivery selection process redundant yet straightforward. The presentation of discounts (20%) during signup also raised confusions and questions.
 
-## (1) An alternative signup flow
+## From Research to Design: Practical Solutions
 
-As mention above, one of the biggest pain point for the potential customers was the inability to select the meals before paying in the signup process. We had taken that complaint into an account and try to find a solution for the users that is also suitable for the business.
+From these findings, I formulated design solutions for A/B testing:
 
-The variant design enabled the first order payment to be done 3-5 days before the delivery date. Changing the entire signup flow is not an option due to the limited resources. We decided to use an A/B experiment to validate different leeways with users. In this way, the users still select their meal in the last step of the signup process but we remove the payment binding. With this solution, we believe that the users can feel that they will not have to commit to the subscription service from the beginning.
+## An Altered Signup Flow
 
-## Impact & Performance
+To tackle users' frustration with selecting meals after payment, I introduced a variant design. This approach allowed users to pay a few days before delivery, achieving a balance between user flexibility and business needs without compromising the whole signup flow. 
 
-Over the 3 months before conducing the test, the overall conversion rate for acquisition was approximately 55%. With this test, the variant design was able to **increase the conversion rate by 10%** between the payment step and the choosing meal step. However, the cancellation rate and failed payment rate was increased as well by 7% with the variant design.
-
-Despite the higher cancellation rate, **the long-term value (LTV) of customers was raised by 3%** and **the variant design contributed to increasing the basket size of the first order by 4%. 20% of the users added more premium recipes and 38% of the users added additional market items into their box**. The variant delivered a huge success that did not only tackle the problem with signup rate but also enabled an increase in average basket size.
-
-Due to the higher cancellation rate, there are new solutions to improve the experience such as fast checkout after editing the first box, payment failure reminder via SMS.
+The impact was significant. **There was an impressive 10% increase in conversion between payment and meal selection.** Despite a subsequent rise in cancellation rates and payment failures by 7%, the variant's long-term value (LTV) of customers increased by 3%. Moreover, the basket size for the first order grew by 4%, with premium recipe additions by 20% of users and market items by 38%.
 
 ![payment](payment.webp)
 
-## (2) Reducing lead time on the first delivery
+## Reducing Lead Time for First Delivery
 
-Due to the long waiting time of their first delivery shown in the signup process, the users explicitly mentioned that they were reluctant to give the brand a try. It is common for e-commerce service to provide the fastest delivery, so the users expects to not waiting so long to receive their product. Apart from that, there were about 5% of the customers who had signed up cancelled their first box before it arrives.
-
-## Impact & Performance
-
-The new design was able **to decrease of 74% in the first order cancellation** due to the fact that the lead time has been reduced significantly for the users. This translates to approximately **15% additional revenue for the first orders**. By pre-selecting the fastest date for the users, the lead time can be reduced to an average of 3.7 days for the new customers.
-
-With a huge success of this design, the operation has a plan to reduce the lead time even more to as short as 48 hours, so that the new customers can receive their first box even faster as purchasing a product from an e-commerce shop. It is also planned to apply the same design to the reactivating customers.
+Recognizing the impatience surrounding first delivery, I introduced a design that pre-selecting the fastest delivery dates, we shortened the lead time to an average of 3.7 days. This is a game changer for the brand.**The outcome showed that the new design slashed first order cancellations by a staggering 74%.** This success prompted plans to further reduce lead times to a window of 48 hours, enhancing the signup to first delivery experience and driving additional revenue.
 
 ![delivery-selection](delivery-selection.webp)
