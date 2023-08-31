@@ -4,7 +4,7 @@ import Logo from '@site/src/components/Logo';
 import clsx from 'clsx';
 import styles from './index.module.scss';
 
-export default function NavbarLogo() {
+export default () => {
   const themeConfig = useThemeConfig();
 
   return (
@@ -16,4 +16,4 @@ export default function NavbarLogo() {
       />
     </Link>
   );
-}
+};

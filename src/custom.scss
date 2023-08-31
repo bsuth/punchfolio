@@ -17,16 +17,16 @@
   --ifm-link-color: var(--ifm-font-color-base);
   --ifm-link-hover-color: var(--ifm-color-primary);
   --ifm-link-hover-decoration: none;
+
+  --ifm-navbar-background-color: var(--ifm-background-color);
 }
 
 [data-theme='light'] {
   --ifm-background-color: #f8f8f8;
-  --ifm-navbar-background-color: #f8f8f8;
 }
 
 [data-theme='dark'] {
   --ifm-background-color: #1b1b1d;
-  --ifm-navbar-background-color: #1b1b1d;
 }
 
 html {
