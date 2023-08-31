@@ -1,0 +1,24 @@
+.logo {
+  stroke: var(--ifm-font-color-base);
+
+  // Match transition on navbar links
+  transition: stroke var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+
+  .finger {
+    fill: none;
+    stroke-width: 1.64459276;
+  }
+
+  .palm {
+    fill: none;
+    stroke-width: 3.71774584;
+    stroke-linecap: 'butt';
+    stroke-linejoin: 'miter';
+  }
+
+  .circle {
+    fill: none;
+    stroke-width: 3.17500001;
+  }
+}
