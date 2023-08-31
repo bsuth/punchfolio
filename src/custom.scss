@@ -29,13 +29,13 @@
   --ifm-background-color: #1b1b1d;
 }
 
-html {
-  padding: var(--document-padding-vertical) var(--document-padding-horizontal);
-}
-
 body {
   margin: 0 auto;
   max-width: 1024px;
+}
+
+#__docusaurus {
+  padding: var(--document-padding-vertical) var(--document-padding-horizontal);
 }
 
 .hash-link {
