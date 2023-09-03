@@ -11,6 +11,8 @@ Vouchers have been a mean in attracting new customers to the meal kit experience
 
 Split voucher is a common strategy among meal kit brands to maintain subscribers over multiple weeks. These vouchers consist of two main campaigns: the **"Acquisition Voucher,"** aimed at new customers and distributed through digital and affiliate marketing, and the **"Reactivation Voucher,"** tailored for unsubscribed customers via targeted email campaigns.
 
+![split-voucher](split-voucher.webp)
+
 ## Simplifying the User Flow
 
 During a discussion with both product and marketing teams, we outlined the essential features of the Minimum Viable Product (MVP). It became clear that the solution needed to be capable of adjusting discounts based on variables like the number of persons and the number of meals chosen on a plan.
