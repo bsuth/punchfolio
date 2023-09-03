@@ -1,6 +1,6 @@
 ---
 title:
-  I'm Punch, a Product Designer from Berlin who adds a sprinkle of Anthropology to whip up thoughtful digital experiences.
+  I'm Punch, a Product Designer from Berlin who uses my background in Anthropology & Sociology to create thoughtful digital experiences..
 subtitle: Scroll down to see my past projects
 projects:
   - id: rule-builder

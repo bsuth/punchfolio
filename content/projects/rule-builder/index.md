@@ -3,9 +3,9 @@ import { ImageGrid } from '@site/src/components/ImageLayout'; import Vimeo from
 
 # Designing a Rule Builder on Promotion Software
 
-In the competitive landscape of meal kit subscriptions, Marley Spoon has made its mark by delivering convenient home-cooked experiences to customers in 7 countries, with Australia and the USA as the biggest markets. Their focus on pre-portioned ingredients and diverse recipes has resonated with those who seek ease without sacrificing flavor. With subscription plans designed for two-person and four-person households, subscribers can choose up to 6 meals per week, simplifying meal planning.
+In the competitive landscape of meal kit subscriptions, Marley Spoon has made its mark by delivering convenient home-cooked experiences to customers in 7 countries, with Australia and the USA as the biggest markets. Their focus on pre-portioned ingredients and diverse recipes has resonated with those who look for quick and easy meal preparation. With subscription plans designed for two-person and four-person households, subscribers can choose up to 6 meals per week, simplifying meal planning.
 
-Vouchers have long been a staple in attracting new customers to the meal kit experience. However, the simplicity of offering flat percentage discounts has become a bit more complicated. **Offering the same discounts across all subscription plans started eating into profit margins, especially for higher-value plans.** Collaborating with product and marketing managers, we discovered a solution by introducing varying discounts linked to specific subscription plans. However, the existing promotion software caused a challenge, as it wasn't equipped for this level of customization.
+Vouchers have been a mean in attracting new customers to the meal kit experience. However, the simplicity of offering flat percentage discounts has become a bit more complicated. **Offering the same discounts across all subscription plans started eating into profit margins, especially for higher-value plans.** Collaborating with product and marketing managers, we discovered a solution by introducing varying discounts linked to specific subscription plans. However, the existing promotion software caused a challenge, as it wasn't equipped for this level of customization.
 
 ## The Strategy of Split Voucher
 
@@ -32,7 +32,7 @@ I introduced a design solution that came in the shape of **the Rule Builder** â€
 
 ## Refinement through Iteration
 
-My design didn't end at the initial draft. Through design processes and rapid testing, I ensured that my solution improved to resonate better with users. I enhanced visual representations of complex rules and optimized a navigation structure transformed discount customization into an intuitive experience.
+Through design processes and rapid testing, I ensured that my solution improved to resonate better with users. I enhanced visual representations of complex rules and optimized a navigation structure transformed discount customization into an intuitive experience.
 
 ![navigation-patterns](navigation-patterns.webp)
 
