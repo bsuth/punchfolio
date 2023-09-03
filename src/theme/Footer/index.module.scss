@@ -24,6 +24,16 @@
       height: 24px;
     }
   }
+
+  .githubMark path {
+    // Match transition on links
+    transition: fill var(--ifm-transition-fast)
+      var(--ifm-transition-timing-default);
+  }
+
+  a:hover .githubMark path {
+    fill: var(--ifm-link-hover-color);
+  }
 }
 
 @media (max-width: 576px) {
