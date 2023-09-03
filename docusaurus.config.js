@@ -4,7 +4,7 @@ module.exports = {
   organizationName: 'bsuth',
   projectName: 'punchfolio',
   url: 'https://punchfolio.com',
-  baseUrl: process.env.NODE_ENV === 'production' ? '/punchfolio/' : '/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
