@@ -5,7 +5,7 @@ import { ImageGrid } from '@site/src/components/ImageLayout'; import Vimeo from
 
 In the competitive landscape of meal kit subscriptions, Marley Spoon has made its mark by delivering convenient home-cooked experiences to customers in 7 countries, with Australia and the USA as the biggest markets. Their focus on pre-portioned ingredients and diverse recipes has resonated with those who look for quick and easy meal preparation. With subscription plans designed for two-person and four-person households, subscribers can choose up to 6 meals per week, simplifying meal planning.
 
-Vouchers have been a mean in attracting new customers to the meal kit experience. However, the simplicity of offering flat percentage discounts has become a bit more complicated. **Offering the same discounts across all subscription plans started eating into profit margins, especially for higher-value plans.** Collaborating with product and marketing managers, we discovered a solution by introducing varying discounts linked to specific subscription plans. However, the existing promotion software caused a challenge, as it wasn't equipped for this level of customization.
+Vouchers have been a mean in attracting new customers to the meal kit experience. However, the simplicity of offering flat discounts has become a bit more complicated. **Offering the same discounts across all subscription plans started eating into profit margins, especially for higher-value plans.** Collaborating with product and marketing managers, we discovered a solution by introducing varying discounts linked to specific subscription plans. However, the existing promotion software caused a challenge, as it wasn't equipped for this level of customization.
 
 ## The Strategy of Split Voucher
 
@@ -13,14 +13,25 @@ Split voucher is a common strategy among meal kit brands to maintain subscribers
 
 ![split-voucher](split-voucher.webp)
 
-## Simplifying the User Flow
+## Simplifying the Scope & User Flow
 
-During a discussion with both product and marketing teams, we outlined the essential features of the Minimum Viable Product (MVP). It became clear that the solution needed to be capable of adjusting discounts based on variables like the number of persons and the number of meals chosen on a plan.
+During a discussion with both product and marketing teams, we outlined the essential features of the Minimum Viable Product (MVP). It became clear that the solution needed to be capable of adjusting discounts based on variables like the number of persons and the number of meals chosen on a plan. To further this initiative, I collaborated with a product manager to organize a workshop with our engineering team. The goal was to gain insights into the technical feasibility of these features and plan their prioritization in our development roadmap.
 
 <ImageGrid columns="2">
 
 ![MVP-Scope](MVP-Scope.webp)
 ![user-flow](user-flow.webp)
+
+</ImageGrid>
+
+## Design Discovery
+
+After gathering all the requirements, I looked at how different promotion software handles marketing campaign customization. I also checked out other analytic software to see how they manage complex logic in segmentation. Along the way, I sketched out some ideas to see how they'd fit with the current interface.
+
+<ImageGrid columns="2">
+
+![Sketch-1](breadcrumbs-sketch-1.webp)
+![Sketch-2](breadcrumbs-sketch-2.webp)
 
 </ImageGrid>
 
