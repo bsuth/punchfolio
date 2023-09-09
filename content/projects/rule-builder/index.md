@@ -17,7 +17,12 @@ Split voucher is a common strategy among meal kit brands to maintain subscribers
 
 During a discussion with both product and marketing teams, we outlined the essential features of the Minimum Viable Product (MVP). It became clear that the solution needed to be capable of adjusting discounts based on variables like the number of persons and the number of meals chosen on a plan.
 
+<ImageGrid columns="2">
+
+![MVP-Scope](MVP-Scope.webp)
 ![user-flow](user-flow.webp)
+
+</ImageGrid>
 
 ## Introducing the Rule Builder
 
